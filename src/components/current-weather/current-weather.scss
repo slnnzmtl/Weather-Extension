@@ -1,0 +1,22 @@
+//components
+@import './__top/current-weather__top';
+@import './__top/current-weather__city';
+@import './__top/current-weather__date';
+@import './__degree/current-weather__temp';
+@import './__degree/current-weather__icon';
+@import './__degree/current-weather__type';
+@import './current-weather__background';
+@import './__degree/current-weather__degree';
+
+
+//modificators
+@import './current-weather_dark_theme';
+.current-weather {
+  display: flex;
+  font-size: 22px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,11 @@
+.current-weather__temp {
+  font-family: 'Roboto Condensed';
+  font-weight: 700;
+  font-size: 40px;
+  display: flex;
+  &::after {
+    content: '°C';
+    font-size: 15px;
+    font-weight: 100;
+  }
+}

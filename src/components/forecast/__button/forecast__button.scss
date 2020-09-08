@@ -1,0 +1,16 @@
+.forecast__button {
+  position: absolute;
+  background: none;
+  z-index: 99;
+  outline: none;
+  border-radius: 5px;
+  color: #bdbbaf;
+  font-size: 15px;
+  font-weight: bold;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  &:hover {
+    color: #FFFCE8;
+  }
+}

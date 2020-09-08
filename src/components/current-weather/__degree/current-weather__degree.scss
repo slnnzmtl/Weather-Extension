@@ -1,0 +1,27 @@
+.current-weather__degree {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 180px;
+
+  .current-weather__degree-left {
+    display: flex;
+    align-items: center;
+  }
+
+  .current-weather__degree-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    .current-weather__temp {
+      margin: 0px;
+    }
+
+    .current-weather__type {
+      margin: 0px;
+    }
+  }
+}

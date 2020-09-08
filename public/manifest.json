@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "My Weather Extension",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "sun.png",
+    "default_title": "weather app",
+    "default_popup": "index.html"
+  },
+
+  "permissions": [
+        "geolocation",
+        "http://*/*",
+        "https://*/*"
+    ]
+
+}

@@ -1,0 +1,19 @@
+@import './__button/forecast__button';
+@import './__button/forecast__next';
+@import './__button/forecast__prev';
+@import "./__day/forecast__day.scss";
+
+
+.forecast {
+  display: flex;
+  width: 500px;
+  overflow: hidden;
+  position: relative;
+
+  .forecast__slider {
+    display: flex;
+    position: relative;
+    align-items: stretch;
+    transition: all .5s;
+  }
+}

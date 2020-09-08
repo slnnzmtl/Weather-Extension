@@ -1,0 +1,10 @@
+.full-info__item {
+  display: flex;
+  width: 180px;
+  justify-content: center;
+
+  .full-info__img {
+    height: 1em;
+    margin-right: 10px;
+  }
+}

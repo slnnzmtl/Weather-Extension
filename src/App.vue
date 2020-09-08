@@ -1,28 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Current></Current>
+    <Forecast></Forecast>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Current from "@/components/current-weather/current-weather.vue"
+import Forecast from "@/components/forecast/forecast.vue"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Current,
+    Forecast
+  },
+  created() {
+    this.$store.dispatch('getCoordinates')
   }
 }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

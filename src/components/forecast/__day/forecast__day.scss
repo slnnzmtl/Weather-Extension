@@ -1,0 +1,26 @@
+.forecast__day {
+  display: flex;
+  flex-direction: column;
+  background-color: $bgcolor;
+  min-width: 125px;
+  align-items: center;
+  border: 1px solid rgba(255,255,255,0.1);
+  color: white;
+  box-sizing: border-box;
+  justify-content: space-between;
+
+
+  .forecast__field {
+    margin: 0px;
+    margin-top: 10px;
+    max-width: 100px;
+  }
+
+  .forecast__temp {
+    margin-bottom: 10px;
+    &::after {
+      content: "°C";
+      font-size: 10px;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import './full-info__span';
+@import './full-info__summary';
+@import './full-info__item';
+
+.full-info {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10%;
+  box-sizing: border-box;
+
+  &:hover {
+    background-color: rgba(13, 19, 23, 0.7);
+    transition: 0.2s;
+    backdrop-filter: blur(3px);
+  }
+}
